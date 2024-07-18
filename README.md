@@ -21,7 +21,6 @@ Este proyecto sigue una arquitectura limpia, dividida en tres capas principales:
 - **Dominio**: Casos de uso y entidades que definen la lógica de negocio.
 - **Datos**: Repositorios y fuentes de datos que gestionan la comunicación con fuentes externas y locales.
 
-![Arquitectura](path/to/architecture_diagram.png) <!-- Asegúrate de incluir un diagrama de la arquitectura aquí -->
 
 ## Cómo Empezar
 Para ejecutar este proyecto localmente, sigue estos pasos:
