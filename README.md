@@ -1,16 +1,42 @@
-# git_flutter_repo_test
+# Top Flutter GitHub Repository
 
-A new Flutter project.
+## Descripción
+"Top Flutter GitHub Repository" es una aplicación móvil construida con Flutter que permite a los usuarios buscar, visualizar y gestionar repositorios de GitHub centrados en Flutter. Esta aplicación utiliza principios de arquitectura limpia y gestión de estado con Cubit, ofreciendo una experiencia de usuario fluida y eficiente tanto en línea como fuera de línea.
 
-## Getting Started
+## Características
+- **Buscar Repositorios**: Los usuarios pueden buscar repositorios por nombre.
+- **Filtrar por Estrellas y Fechas**: Ordenar los resultados por número de estrellas o fechas de actualización.
+- **Vista Detallada**: Acceso a una vista detallada de cada repositorio, incluyendo estrellas, forks, y más.
+- **Gestión Offline**: Capacidad de guardar repositorios localmente para acceso offline.
 
-This project is a starting point for a Flutter application.
+## Tecnologías Utilizadas
+- **Flutter**: Para la creación de la interfaz de usuario y la lógica de la aplicación.
+- **Dio**: Para realizar llamadas HTTP a la API de GitHub.
+- **Floor**: Como capa de abstracción para SQLite, que permite un manejo más sencillo de la base de datos local.
+- **Bloc/Cubit**: Para la gestión de estados, simplificando el manejo de estados reactivos de la aplicación.
 
-A few resources to get you started if this is your first Flutter project:
+## Arquitectura
+Este proyecto sigue una arquitectura limpia, dividida en tres capas principales:
+- **Presentación**: Cubits y pantallas que interactúan directamente con el usuario.
+- **Dominio**: Casos de uso y entidades que definen la lógica de negocio.
+- **Datos**: Repositorios y fuentes de datos que gestionan la comunicación con fuentes externas y locales.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+![Arquitectura](path/to/architecture_diagram.png) <!-- Asegúrate de incluir un diagrama de la arquitectura aquí -->
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Cómo Empezar
+Para ejecutar este proyecto localmente, sigue estos pasos:
+
+1. Clona este repositorio:
+git clone https://github.com/PeachBlack-Alba/repositorio_flutter_api.git
+
+2. Navega al directorio del proyecto:
+cd top-flutter-repo
+
+3. Instala las dependencias:
+flutter pub get
+
+4. Ejecuta la aplicación:
+flutter run
+
+## Licencia
+Distribuido bajo la Licencia MIT. Consulta el archivo `LICENSE` para más información.
